@@ -1,11 +1,10 @@
 # compile OrangeFox Recovery with Github Actions
 ```
-only Supports OrangeFox  (14.1 is not ready yet) / 12.1 / 11
+only Supports OrangeFox Boston 12.1 
 **************
-*** WARNING***: the fox_14.1 branch is *EXPERIMENTAL*! Also, syncing will take a *VERY* long time
+*** WARNING***: the fox_14.1 branch is *EXPERIMENTAL*
 **************
 ```
-![cap_sprout](https://wiki.orangefox.tech/banner.svg)
 ---
 # Features
 Auto updates in background/
@@ -60,39 +59,9 @@ OrangeFox Recovery was originally designed for Xiaomi Redmi Note 4X Snapdragon (
 - Optimize the parameter transfer part, now you can run multiple Workers at the same time
 ```
 
------
+-----)
 
-## Output will be like this
-![](https://s3.bmp.ovh/imgs/2024/10/07/3913c62d5c20649f.png)
 
-## Parameter Description
-| Name | Description | Example |
-| ------------ | -------------------- | ------------ |
-| `MANIFEST_BRANCH` | Source branch | OrangeFox-12.1 |
-| `DEVICE_TREE_URL` | Device tree address | https://github.com/kinguser981/android_device_samsung_a05s.git |
-| `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-12.1 |
-| `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/samsung/a05s |
-| `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | a05s |
-| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | fox_a05s.mk
-| `BUILD_TARGET` | Build Target Partition (boot/recovery/vendor_boot) | recovery |
-| `RECOVERY_INSTALLER` | Include recovery installer zip | Optional |
-| `RECOVERY_TAR` | Recovery to tar for Samsung devices | Optional |
-
------
-
-## Usage Instructions
-
-#### 1. Click 'Fork' in the upper right corner of this repo
-![](https://s3.bmp.ovh/imgs/2024/09/07/acd37b59bde6971e.png)
-#### 2. After waiting for the automatic redirection, you will see your own username
-## Building the Recovery
-#### 3. Click on 'Actions' then Click no 'OrangeFox - Build'
-![](https://s3.bmp.ovh/imgs/2024/10/07/fc95db719a8603e4.png)
-#### 4. Click 'Run workflow', choose the branch for the recovery that you want to build, and fill in according to the above 'Parameter Description'
-![](https://s3.bmp.ovh/imgs/2024/10/08/b0914297dd7ec359.png)
-#### 5. After filling in, click 'Run workflow' to start running
-
------
 
 ## Compilation results
 Can be downloaded at [Release](../../releases)
@@ -105,4 +74,8 @@ Can be downloaded at [Release](../../releases)
 - https://github.com/cd-Crypton
 - https://github.com/azwhikaru
 - And to all Contributors in every repositories and scripts I used.
+
+
+
+MADE FOR BOSTON CODE NAME FOR THE MOTOROLA STYLUS 5G ITS A FORKED BUILD I MADE ONLY BUTTONS WORK FOR NAVIGATION THOUGH ENJOY 
 
