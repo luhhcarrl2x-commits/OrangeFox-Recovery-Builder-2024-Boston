@@ -1,11 +1,10 @@
 # compile OrangeFox Recovery with Github Actions
 ```
-only Supports OrangeFox  (14.1 is not ready yet) / 12.1 / 11
+only Supports OrangeFox Boston 12.1 
 **************
-*** WARNING***: the fox_14.1 branch is *EXPERIMENTAL*! Also, syncing will take a *VERY* long time
+*** WARNING***: the fox_14.1 branch is *EXPERIMENTAL*
 **************
 ```
-![cap_sprout](https://wiki.orangefox.tech/banner.svg)
 ---
 # Features
 Auto updates in background/
@@ -105,4 +104,8 @@ Can be downloaded at [Release](../../releases)
 - https://github.com/cd-Crypton
 - https://github.com/azwhikaru
 - And to all Contributors in every repositories and scripts I used.
+
+
+
+MADE FOR BOSTON CODE NAME FOR THE MOTOROLA STYLUS 5G ITS A FORKED BUILD I MADE ONLY BUTTONS WORK FOR NAVIGATION THOUGH ENJOY 
 
